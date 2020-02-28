@@ -1,0 +1,31 @@
+ .App{
+   margin: 0px 250px;
+ }
+ 
+li{
+  list-style:none
+}
+
+.drop-list{
+  
+  display:none;
+  position :absolute;  
+}
+.title{
+  position: relative;
+ 
+}
+
+.title:hover .drop-list{
+  display: flex;
+  flex-direction: column;
+   border:2px solid blue;
+   width: 200px;
+  left: -85px;
+ }
+
+.list{
+  justify-content: space-around;
+  display: flex;
+ 
+}
